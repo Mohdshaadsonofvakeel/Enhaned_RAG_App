@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; margin: 0; padding: 0; }
+.container { max-width: 900px; margin: 0 auto; padding: 24px; }
+header { margin-bottom: 24px; }
+.card { border: 1px solid #ddd; border-radius: 8px; padding: 16px; margin-bottom: 24px; }
+.row { display: flex; gap: 8px; }
+input[type="text"] { flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 6px; }
+select { padding: 10px; border: 1px solid #ccc; border-radius: 6px; }
+button { padding: 10px 16px; border: none; border-radius: 6px; cursor: pointer; }
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+.docs ul { list-style: none; padding: 0; }
+.docs li { margin: 6px 0; }
+.hint { color: #777; font-size: 13px; }
