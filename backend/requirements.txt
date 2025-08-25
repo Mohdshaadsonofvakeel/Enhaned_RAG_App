@@ -1,0 +1,16 @@
+Flask==3.0.3
+flask-cors==4.0.0
+python-dotenv==1.0.1
+PyPDF2==3.0.1
+python-docx==1.1.2
+Pillow==10.4.0
+pytesseract==0.3.10
+# magic for MIME detection (use platform markers)
+python-magic==0.4.27; sys_platform != "win32"
+python-magic-bin==0.4.14; sys_platform == "win32"
+sentence-transformers==2.7.0
+faiss-cpu==1.8.0.post1
+numpy==1.26.4
+supabase==2.5.1
+google-generativeai==0.7.2
+requests==2.32.3
