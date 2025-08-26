@@ -1,1 +1,21 @@
-#
+### Use with VS Code REST Client extension or just as reference ###
+
+# Upload a file
+POST http://localhost:8000/api/upload
+Content-Type: multipart/form-data; boundary=WebKitFormBoundary7MA4YWxkTrZu0gW
+
+--WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="sample.txt"
+Content-Type: text/plain
+
+Hello world. This is a sample file about RAG and embeddings.
+--WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+### Ask a question
+POST http://localhost:8000/api/ask
+Content-Type: application/json
+
+{
+  "question": "What is this project about?",
+  "top_k": 5
+}
