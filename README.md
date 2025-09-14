@@ -1002,15 +1002,11 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 **Developer Contact:**
 - **Name:** Mohd Shad
-- **Email:** [Your Email Here]
-- **LinkedIn:** [Your LinkedIn Profile]
-- **GitHub:** [Your GitHub Profile]
+- **Email:** [shaadmr70@gmail.com]
+- **GitHub:** [https://github.com/Mohdshaadsonofvakeel]
 
 **Project Resources:**
-- **Documentation:** [Project Wiki]
-- **Issue Tracker:** [GitHub Issues]
-- **Discussions:** [GitHub Discussions]
-- **Release Notes:** [GitHub Releases]
+- **Documentation:** [https://github.com/Mohdshaadsonofvakeel/Enhaned_RAG_App]
 
 **Support Channels:**
 - Create GitHub issue for bugs and feature requests
